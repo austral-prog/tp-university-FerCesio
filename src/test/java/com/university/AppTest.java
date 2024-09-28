@@ -1,14 +1,18 @@
 package com.university;
 
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.List;
+import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class SolutionTest {
+public class AppTest {
 
     @Test
     public void testSolutionCSVMatchesExpected() {
@@ -40,4 +44,33 @@ public class SolutionTest {
             e.printStackTrace();
         }
     }
+
+    @Test
+    public void studentTest(){
+        Student Fernando = new Student("Fernando","fernandocesio@gmail.com");
+        Subject ProgramacionII = new Subject("Programacion II","Prof. Miodosky");
+        Fernando.subList.add(ProgramacionII);
+        assertTrue(Fernando.subList.contains(ProgramacionII));
+        assertEquals("Fernando",Fernando.getName());
+        assertEquals("fernandocesio@gmail.com",Fernando.getStudentEmail());
+    }
+
+    @Test
+    public void subjectTest(){
+        Subject Algebra = new Subject("Algebra","Prof. Krause");
+        assertEquals("Algebra",Algebra.getName());
+        assertEquals("Prof. Krause",Algebra.getTeacher());
+    }
+
+    @Test
+    public void universityTest(){
+        Subject TecnicasDigitales = new Subject("Tecnicas digitales","Prof. Toobe");
+        University.subjects.add(TecnicasDigitales);
+        Student Miguel = new Student("Miguel","miguel@gmail.com");
+        Student Tomas = new Student("Tomas","tomas@gmail.com");
+        assertTrue(University.subjects.contains(TecnicasDigitales));
+        University.students.add(Miguel);
+        assertTrue(University.students.contains(Miguel));
+    }
+
 }
