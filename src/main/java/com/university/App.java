@@ -1,5 +1,7 @@
 package com.university;
 
+import com.university.criteria.Criteria;
+
 import java.io.*;
 import java.util.*;
 
@@ -9,13 +11,25 @@ public class App {
         String archivoSalida = "src/main/resources/solution.csv";  // Archivo CSV de salida
         String archivoEntrada2 = "src/main/resources/input_2.csv";
         String archivoSalida2 = "src/main/resources/solution2.csv";
+        String archivoEntrada3 = "src/main/resources/input_3.csv";
+        String archivoSalida3 = "src/main/resources/solution3.csv";
 
         csvProcessor Part1 = new csvProcessor(archivoEntrada, archivoSalida);
         Part1.expected1();
         csvProcessor Part2 = new csvProcessor(archivoEntrada2, archivoSalida2);
         Part2.expected2();
+        csvProcessor Part3 = new csvProcessor(archivoEntrada3, archivoSalida3);
+        Part3.expected3();
         for (Subject subject : University.subjects){
-            System.out.println(subject.examList.size());
+            if (subject.getName().equals("Geography")) {
+
+                System.out.println(subject.criteriaList);
+                System.out.println(subject.examList);
+                for (Examination exam : subject.examList){
+                    System.out.println(exam.getExamName());
+                }
+
+            }
         }
     }
 }

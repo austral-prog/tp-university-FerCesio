@@ -19,15 +19,14 @@ public class University {
                 }
             }
         } else {
-            if (!student.getName().equals("Student_Name")) {
-                University.students.add(student);
-                student.subList.add(subject);
-            }
+            University.students.add(student);
+            student.subList.add(subject);
         }
         if (!University.subjects.contains(subject)) {
             University.subjects.add(subject);
         }
     }
+
 }
 
 

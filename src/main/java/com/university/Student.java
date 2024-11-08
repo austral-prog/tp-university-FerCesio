@@ -2,16 +2,25 @@ package com.university;
 
 import java.util.*;
 
-public class Student {
+public class Student implements Entity {
 
     String name;
     String studentEmail;
     Set<Subject> subList = new TreeSet<>(Comparator.comparing(Subject::getName));
+    int id;
 
 
     public Student(String name, String studentEmail) {
         this.name = name;
         this.studentEmail = studentEmail;
+    }
+
+    public int getId(){
+        return id;
+    }
+
+    public void setId(int id){
+        this.id = id;
     }
 
     public String getName() {
