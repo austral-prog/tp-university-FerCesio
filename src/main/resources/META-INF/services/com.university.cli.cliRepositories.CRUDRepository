@@ -1,0 +1,3 @@
+com.university.cli.cliRepositories.subjectRepository
+com.university.cli.cliRepositories.studentRepository
+com.university.cli.cliRepositories.examRepository

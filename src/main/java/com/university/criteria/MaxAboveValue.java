@@ -1,8 +1,8 @@
 package com.university.criteria;
 
-import com.university.Examination;
-import com.university.Student;
-import com.university.Subject;
+import com.university.mainManagement.Examination;
+import com.university.mainManagement.Student;
+import com.university.mainManagement.Subject;
 
 import java.util.ArrayList;
 import java.util.List;

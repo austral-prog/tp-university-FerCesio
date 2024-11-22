@@ -1,9 +1,6 @@
 package com.university;
 
-import com.university.criteria.Criteria;
-
-import java.io.*;
-import java.util.*;
+import com.university.mainManagement.csvProcessor;
 
 public class App {
     public static void main(String[] args){
@@ -20,16 +17,5 @@ public class App {
         Part2.expected2();
         csvProcessor Part3 = new csvProcessor(archivoEntrada3, archivoSalida3);
         Part3.expected3();
-        for (Subject subject : University.subjects){
-            if (subject.getName().equals("Geography")) {
-
-                System.out.println(subject.criteriaList);
-                System.out.println(subject.examList);
-                for (Examination exam : subject.examList){
-                    System.out.println(exam.getExamName());
-                }
-
-            }
-        }
     }
 }

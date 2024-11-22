@@ -1,7 +1,7 @@
 package com.university.examTypes;
 
-import com.university.Examination;
-import com.university.Student;
+import com.university.mainManagement.Examination;
+import com.university.mainManagement.Student;
 
 import java.util.List;
 import java.util.Map;

@@ -5,7 +5,7 @@ Art,Alice Blue,false
 Art,Alice Brown,false
 Art,Alice Cyan,true
 Art,Alice Davis,false
-Art,Alice Gray,true
+Art,Alice Gray,false
 Art,Alice Green,false
 Art,Alice Indigo,false
 Art,Alice Johnson,false
@@ -31,7 +31,7 @@ Art,Bob Indigo,false
 Art,Bob Johnson,false
 Art,Bob Magenta,true
 Art,Bob Orange,false
-Art,Bob Pink,true
+Art,Bob Pink,false
 Art,Bob Purple,false
 Art,Bob Red,false
 Art,Bob Teal,false
@@ -107,7 +107,7 @@ Art,Frank Cyan,false
 Art,Frank Davis,false
 Art,Frank Gray,false
 Art,Frank Green,false
-Art,Frank Indigo,true
+Art,Frank Indigo,false
 Art,Frank Johnson,false
 Art,Frank Magenta,false
 Art,Frank Orange,false
@@ -169,7 +169,7 @@ Art,Ivy Gray,false
 Art,Ivy Green,false
 Art,Ivy Indigo,false
 Art,Ivy Johnson,false
-Art,Ivy Magenta,true
+Art,Ivy Magenta,false
 Art,Ivy Orange,false
 Art,Ivy Pink,false
 Art,Ivy Purple,false
@@ -188,9 +188,9 @@ Art,Jack Davis,false
 Art,Jack Gray,false
 Art,Jack Green,false
 Art,Jack Indigo,false
-Art,Jack Johnson,true
+Art,Jack Johnson,false
 Art,Jack Magenta,false
-Art,Jack Orange,true
+Art,Jack Orange,false
 Art,Jack Pink,false
 Art,Jack Purple,false
 Art,Jack Red,false
@@ -228,7 +228,7 @@ Art,Liam Davis,false
 Art,Liam Gray,false
 Art,Liam Green,false
 Art,Liam Indigo,false
-Art,Liam Johnson,true
+Art,Liam Johnson,false
 Art,Liam Magenta,false
 Art,Liam Orange,false
 Art,Liam Pink,true
@@ -250,7 +250,7 @@ Art,Mona Green,false
 Art,Mona Indigo,false
 Art,Mona Johnson,false
 Art,Mona Magenta,false
-Art,Mona Orange,true
+Art,Mona Orange,false
 Art,Mona Pink,false
 Art,Mona Purple,false
 Art,Mona Red,true
@@ -271,7 +271,7 @@ Art,Nick Indigo,false
 Art,Nick Johnson,false
 Art,Nick Magenta,false
 Art,Nick Orange,false
-Art,Nick Pink,true
+Art,Nick Pink,false
 Art,Nick Purple,false
 Art,Nick Red,false
 Art,Nick Teal,false
@@ -300,7 +300,7 @@ Art,Olivia White,false
 Art,Olivia Yellow,false
 Art,Paul Azure,false
 Art,Paul Beige,false
-Art,Paul Black,true
+Art,Paul Black,false
 Art,Paul Blue,false
 Art,Paul Brown,false
 Art,Paul Cyan,false
@@ -345,7 +345,7 @@ Art,Rita Blue,false
 Art,Rita Brown,false
 Art,Rita Cyan,false
 Art,Rita Davis,false
-Art,Rita Gray,true
+Art,Rita Gray,false
 Art,Rita Green,false
 Art,Rita Indigo,false
 Art,Rita Johnson,false
@@ -359,7 +359,7 @@ Art,Rita Violet,false
 Art,Rita White,false
 Art,Rita Yellow,false
 Art,Sam Azure,false
-Art,Sam Beige,true
+Art,Sam Beige,false
 Art,Sam Black,false
 Art,Sam Blue,false
 Art,Sam Brown,false
@@ -3053,7 +3053,7 @@ Mathematics,Bob Gray,false
 Mathematics,Bob Green,false
 Mathematics,Bob Indigo,false
 Mathematics,Bob Johnson,false
-Mathematics,Bob Magenta,true
+Mathematics,Bob Magenta,false
 Mathematics,Bob Orange,false
 Mathematics,Bob Pink,false
 Mathematics,Bob Purple,false
@@ -3080,7 +3080,7 @@ Mathematics,Charlie Purple,false
 Mathematics,Charlie Red,false
 Mathematics,Charlie Teal,false
 Mathematics,Charlie Violet,false
-Mathematics,Charlie White,true
+Mathematics,Charlie White,false
 Mathematics,Charlie Yellow,false
 Mathematics,Dana Azure,false
 Mathematics,Dana Beige,false
@@ -3103,7 +3103,7 @@ Mathematics,Dana Violet,false
 Mathematics,Dana White,false
 Mathematics,Dana Yellow,false
 Mathematics,Eve Azure,false
-Mathematics,Eve Beige,true
+Mathematics,Eve Beige,false
 Mathematics,Eve Black,false
 Mathematics,Eve Blue,false
 Mathematics,Eve Brown,false
@@ -3114,7 +3114,7 @@ Mathematics,Eve Green,false
 Mathematics,Eve Indigo,false
 Mathematics,Eve Johnson,false
 Mathematics,Eve Magenta,false
-Mathematics,Eve Orange,true
+Mathematics,Eve Orange,false
 Mathematics,Eve Pink,false
 Mathematics,Eve Purple,false
 Mathematics,Eve Red,false
@@ -3244,7 +3244,7 @@ Mathematics,Kelly White,false
 Mathematics,Kelly Yellow,false
 Mathematics,Liam Azure,false
 Mathematics,Liam Beige,false
-Mathematics,Liam Black,true
+Mathematics,Liam Black,false
 Mathematics,Liam Blue,false
 Mathematics,Liam Brown,false
 Mathematics,Liam Cyan,false
@@ -3255,7 +3255,7 @@ Mathematics,Liam Indigo,false
 Mathematics,Liam Johnson,false
 Mathematics,Liam Magenta,false
 Mathematics,Liam Orange,false
-Mathematics,Liam Pink,true
+Mathematics,Liam Pink,false
 Mathematics,Liam Purple,false
 Mathematics,Liam Red,false
 Mathematics,Liam Teal,false
@@ -3299,7 +3299,7 @@ Mathematics,Nick Pink,false
 Mathematics,Nick Purple,false
 Mathematics,Nick Red,false
 Mathematics,Nick Teal,false
-Mathematics,Nick Violet,true
+Mathematics,Nick Violet,false
 Mathematics,Nick White,false
 Mathematics,Nick Yellow,false
 Mathematics,Olivia Azure,false
@@ -3322,14 +3322,14 @@ Mathematics,Olivia Teal,false
 Mathematics,Olivia Violet,false
 Mathematics,Olivia White,false
 Mathematics,Olivia Yellow,false
-Mathematics,Paul Azure,true
+Mathematics,Paul Azure,false
 Mathematics,Paul Beige,false
 Mathematics,Paul Black,false
 Mathematics,Paul Blue,false
 Mathematics,Paul Brown,false
 Mathematics,Paul Cyan,false
 Mathematics,Paul Davis,false
-Mathematics,Paul Gray,true
+Mathematics,Paul Gray,false
 Mathematics,Paul Green,false
 Mathematics,Paul Indigo,false
 Mathematics,Paul Johnson,false
@@ -3477,7 +3477,7 @@ Music,Dana Pink,false
 Music,Dana Purple,false
 Music,Dana Red,false
 Music,Dana Teal,false
-Music,Dana Violet,true
+Music,Dana Violet,false
 Music,Dana White,false
 Music,Dana Yellow,false
 Music,Eve Azure,false
@@ -3590,7 +3590,7 @@ Music,Jack Davis,false
 Music,Jack Gray,false
 Music,Jack Green,false
 Music,Jack Indigo,false
-Music,Jack Johnson,true
+Music,Jack Johnson,false
 Music,Jack Magenta,false
 Music,Jack Orange,false
 Music,Jack Pink,false
@@ -3714,14 +3714,14 @@ Music,Paul Johnson,false
 Music,Paul Magenta,false
 Music,Paul Orange,false
 Music,Paul Pink,false
-Music,Paul Purple,true
+Music,Paul Purple,false
 Music,Paul Red,false
 Music,Paul Teal,false
 Music,Paul Violet,false
-Music,Paul White,true
-Music,Paul Yellow,true
+Music,Paul White,false
+Music,Paul Yellow,false
 Music,Quincy Azure,false
-Music,Quincy Beige,true
+Music,Quincy Beige,false
 Music,Quincy Black,false
 Music,Quincy Blue,false
 Music,Quincy Brown,false
@@ -3751,7 +3751,7 @@ Music,Rita Gray,false
 Music,Rita Green,false
 Music,Rita Indigo,false
 Music,Rita Johnson,false
-Music,Rita Magenta,true
+Music,Rita Magenta,false
 Music,Rita Orange,false
 Music,Rita Pink,false
 Music,Rita Purple,false
@@ -3759,7 +3759,7 @@ Music,Rita Red,false
 Music,Rita Teal,false
 Music,Rita Violet,false
 Music,Rita White,false
-Music,Rita Yellow,true
+Music,Rita Yellow,false
 Music,Sam Azure,false
 Music,Sam Beige,false
 Music,Sam Black,false
